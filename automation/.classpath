@@ -2,6 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="seleniumResources"/>
 	<classpathentry kind="src" path="reportingResources"/>
+	<classpathentry kind="src" path="restAssuredResources"/>
+	<classpathentry kind="src" path="applitoolsResources"/>
+	<classpathentry kind="src" path="testDataDrivers"/>
+	<classpathentry kind="src" path="emailDrivers"/>
+	<classpathentry kind="src" path="dbConnectors"/>
+	<classpathentry kind="src" path="katiliumResources"/>
+	<classpathentry kind="src" path="loggingResources"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
