@@ -1,0 +1,87 @@
+PUT labels1
+{
+  "mappings": {
+    "properties": {
+      "Steps": {
+        "properties": {
+          "Failed": {
+            "type": "long"
+          },
+          "Fatal": {
+            "type": "long"
+          },
+          "Other": {
+            "type": "long"
+          },
+          "Passed": {
+            "type": "long"
+          },
+          "Skipped": {
+            "type": "long"
+          }
+        }
+      },
+      "environment": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "reportName": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "reportType": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "testCaseName": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "testCaseStatus": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "testRunDate": {
+        "type": "date",
+        "format": "dd-MMM-yy"
+      },
+      "testSuite": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "totalSteps": {
+        "type": "long"
+      }
+    }
+  }
+}
