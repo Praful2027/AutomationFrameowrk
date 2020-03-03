@@ -1,20 +1,20 @@
 package testProject;
 
-import io.testproject.java.sdk.v2.drivers.WebDriver;
-import io.testproject.java.sdk.v2.enums.ExecutionResult;
-import io.testproject.java.sdk.v2.exceptions.FailureException;
-import io.testproject.java.sdk.v2.tests.WebTest;
-import io.testproject.java.sdk.v2.tests.helpers.WebTestHelper;
+import org.testng.annotations.Test;
 
-public class Test1 implements WebTest{
+import seleniumWrapper.DriverActionsWrapper;
 
-	public ExecutionResult execute(WebTestHelper helper) throws FailureException {
-		// TODO Auto-generated method stub
+
+public class Test1{
+
+	@Test
+	public void test1(){
 		
-		WebDriver driver = helper.getDriver();
-		driver.navigate().to("https://katalon-demo-cura.herokuapp.com/");
 		
-		return null;
+		DriverActionsWrapper driver = new DriverActionsWrapper();
+		driver.setupDriver("Chrome");
+		
+		driver.openBrowser("https://www.google.com");
 	}
 
 }
