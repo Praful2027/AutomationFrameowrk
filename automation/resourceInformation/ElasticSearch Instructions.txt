@@ -1,0 +1,20 @@
+ElasticSearch
+
+Run bin/elasticsearch (or bin\elasticsearch.bat on Windows)
+Run curl http://localhost:9200/ or Invoke-RestMethod http://localhost:9200 with PowerShell
+
+
+Kibana
+
+Open config/kibana.yml in an editor
+Set elasticsearch.hosts to point at your Elasticsearch instance
+Run bin/kibana (or bin\kibana.bat on Windows)
+Point your browser at http://localhost:5601
+
+
+Instructions to create an Index Pattern and Add document
+1. Open Kibana
+2. Goto Dev Tools
+3. Enter POST /{IndexName}/_doc/
+4. Enter the JSON Mapping
+5. Create

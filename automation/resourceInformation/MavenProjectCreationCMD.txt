@@ -1,0 +1,10 @@
+Open CMD
+
+Navigate to folder where project needs to be created
+
+mvn archetype:generate -DgroupId=<groupName> -DartifactId=<ProjectName> -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+Replace <GroupName> and <ProjectName>
+
+Navigate to Project path
+
+mvn eclipse:eclipse

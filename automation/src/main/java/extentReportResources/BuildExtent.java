@@ -1,4 +1,4 @@
-package extentReports;
+package extentReportResources;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

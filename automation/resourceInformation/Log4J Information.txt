@@ -1,0 +1,3 @@
+Level of logging from Left to Right indicates what all logs are printed with the left-most level printing everything towards it's right
+
+trace, debug, info, warn, error, fatal

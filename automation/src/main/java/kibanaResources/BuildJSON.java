@@ -1,4 +1,4 @@
-package analyticalDashboard;
+package kibanaResources;
 
 import java.util.HashMap;
 import java.util.Map;

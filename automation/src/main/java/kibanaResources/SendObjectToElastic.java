@@ -1,4 +1,4 @@
-package analyticalDashboard;
+package kibanaResources;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mashape.unirest.http.Unirest;
