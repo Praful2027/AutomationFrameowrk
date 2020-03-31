@@ -7,7 +7,7 @@ public class LogBuilder {
 	
 	private static Logger log;
 	
-	public void initializeLogger(Object obj) {
+	public LogBuilder(Object obj) {
 		log = LogManager.getLogger(obj.getClass().getName());
 	}
 

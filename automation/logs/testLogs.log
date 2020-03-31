@@ -1,0 +1,20 @@
+22:02:41.625 [main] DEBUG testPackage.LoggerTest - This is a debug log
+22:02:41.636 [main] ERROR testPackage.LoggerTest - This is a error log
+22:02:41.636 [main] FATAL testPackage.LoggerTest - This is a fatal log
+22:02:41.636 [main] INFO  testPackage.LoggerTest - This is a info log
+22:04:50.913 [main] DEBUG testPackage.LoggerTest - This is a debug log
+22:04:50.921 [main] ERROR testPackage.LoggerTest - This is a error log
+22:04:50.921 [main] FATAL testPackage.LoggerTest - This is a fatal log
+22:04:50.921 [main] INFO  testPackage.LoggerTest - This is a info log
+22:49:23.958 [main] DEBUG [testPackage.LoggerTest][debug] testPackage.LoggerTest - This is a debug log
+22:49:23.965 [main] ERROR [testPackage.LoggerTest][error] testPackage.LoggerTest - This is a error log
+22:49:23.977 [main] FATAL [testPackage.LoggerTest][fatal] testPackage.LoggerTest - This is a fatal log
+22:49:23.978 [main] INFO  [testPackage.LoggerTest][info] testPackage.LoggerTest - This is a info log
+22:52:42.878 [main] DEBUG log4jResources.LogBuilder.debug 21 - This is a debug log
+22:52:42.884 [main] ERROR log4jResources.LogBuilder.error 36 - This is a error log
+22:52:42.885 [main] FATAL log4jResources.LogBuilder.fatal 41 - This is a fatal log
+22:52:42.885 [main] INFO  log4jResources.LogBuilder.info 26 - This is a info log
+15:50:20.860 [main] DEBUG testPackage.LoggerTest - This is a debug log
+15:50:20.882 [main] ERROR testPackage.LoggerTest - This is a error log
+15:50:20.882 [main] FATAL testPackage.LoggerTest - This is a fatal log
+15:50:20.882 [main] INFO  testPackage.LoggerTest - This is a info log

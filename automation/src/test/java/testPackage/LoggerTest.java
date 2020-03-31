@@ -10,8 +10,7 @@ public class LoggerTest {
 	@Test
 	public void testLogs() {
 
-		LogBuilder log = new LogBuilder();
-		log.initializeLogger(this);
+		LogBuilder log = new LogBuilder(this);
 		
 
 		log.debug("This is a debug log");
