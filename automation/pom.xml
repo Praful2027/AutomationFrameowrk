@@ -44,7 +44,7 @@
 		<testNGVersion>7.1.0</testNGVersion>
 		<restAssuredVersion>4.2.0</restAssuredVersion>
 		<extentReportsVersion>4.1.3</extentReportsVersion>
-		<log4JVersion>2.13.0</log4JVersion>
+		<log4JVersion>2.13.2</log4JVersion>
 
 	</properties>
 
